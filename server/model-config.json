@@ -24,5 +24,9 @@
   "product": {
     "dataSource": "mongoDS",
     "public": true
+  },
+  "poi": {
+    "dataSource": "mongoDS",
+    "public": true
   }
 }

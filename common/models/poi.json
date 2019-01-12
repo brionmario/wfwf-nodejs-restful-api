@@ -1,0 +1,52 @@
+{
+  "name": "poi",
+  "plural": "poi",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "interests": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "favourited": {
+      "type": "string",
+      "required": true,
+      "default": "false"
+    },
+    "thumbnail": {
+      "type": "string",
+      "required": true
+    },
+    "imageSlider": {
+      "type": ["string"],
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "latitude": {
+      "type": "string",
+      "required": true
+    },
+    "longitude": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
