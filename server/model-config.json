@@ -28,5 +28,9 @@
   "poi": {
     "dataSource": "mongoDS",
     "public": true
+  },
+  "member": {
+    "dataSource": "mongoDS",
+    "public": true
   }
 }
