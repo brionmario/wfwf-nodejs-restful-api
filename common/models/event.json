@@ -20,9 +20,9 @@
       "required": true
     },
     "favourited": {
-      "type": "boolean",
+      "type": "string",
       "required": true,
-      "default": false
+      "default": "false"
     },
     "thumbnail": {
       "type": "string",
