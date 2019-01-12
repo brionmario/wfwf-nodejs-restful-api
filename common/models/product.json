@@ -1,6 +1,6 @@
 {
-  "name": "news",
-  "plural": "news",
+  "name": "product",
+  "plural": "products",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -11,7 +11,7 @@
       "type": "string",
       "required": true
     },
-    "date": {
+    "price": {
       "type": "string",
       "required": true
     },
@@ -19,7 +19,7 @@
       "type": "string",
       "required": true
     },
-    "author": {
+    "category": {
       "type": "string",
       "required": true
     },
@@ -33,13 +33,19 @@
       "required": true
     },
     "imageSlider": {
-      "type": [
-        "string"
-      ],
+      "type": ["string"],
       "required": true
     },
     "description": {
       "type": "string",
+      "required": true
+    },
+    "sizes": {
+      "type": ["string"],
+      "required": true
+    },
+    "specs": {
+      "type": ["string"],
       "required": true
     },
     "latitude": {

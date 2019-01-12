@@ -20,5 +20,9 @@
   "news": {
     "dataSource": "mongoDS",
     "public": true
+  },
+  "product": {
+    "dataSource": "mongoDS",
+    "public": true
   }
 }
