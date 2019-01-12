@@ -12,5 +12,9 @@
       "../common/mixins",
       "./mixins"
     ]
+  },
+  "event": {
+    "dataSource": "mongoDS",
+    "public": true
   }
 }

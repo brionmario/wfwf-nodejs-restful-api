@@ -1,0 +1,64 @@
+{
+  "name": "event",
+  "plural": "events",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "favourited": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "thumbnail": {
+      "type": "string",
+      "required": true
+    },
+    "imageSlider": {
+      "type": ["string"],
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "models": {
+      "type": ["string"],
+      "required": true
+    },
+    "designers": {
+      "type": ["string"],
+      "required": true
+    },
+    "ticketPrice": {
+      "type": "number",
+      "required": true
+    },
+    "latitude": {
+      "type": "string",
+      "required": true
+    },
+    "longitude": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
