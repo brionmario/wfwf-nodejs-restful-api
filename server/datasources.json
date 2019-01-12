@@ -1,1 +1,12 @@
-{}
+{
+  "mongoDS": {
+    "host": "ds155614.mlab.com",
+    "port": 55614,
+    "url": "",
+    "database": "wfwf",
+    "password": "adminwfwf2019",
+    "name": "mongoDS",
+    "user": "wfwfadmin",
+    "connector": "mongodb"
+  }
+}
