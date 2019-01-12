@@ -11,6 +11,10 @@
       "type": "string",
       "required": true
     },
+    "type": {
+      "type": "string",
+      "required": true
+    },
     "date": {
       "type": "string",
       "required": true
@@ -29,9 +33,7 @@
       "required": true
     },
     "imageSlider": {
-      "type": [
-        "string"
-      ],
+      "type": ["string"],
       "required": true
     },
     "description": {
@@ -39,15 +41,11 @@
       "required": true
     },
     "models": {
-      "type": [
-        "string"
-      ],
+      "type": ["string"],
       "required": true
     },
     "designers": {
-      "type": [
-        "string"
-      ],
+      "type": ["string"],
       "required": true
     },
     "ticketPrice": {

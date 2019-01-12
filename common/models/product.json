@@ -11,6 +11,10 @@
       "type": "string",
       "required": true
     },
+    "type": {
+      "type": "string",
+      "required": true
+    },
     "price": {
       "type": "string",
       "required": true
