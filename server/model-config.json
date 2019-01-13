@@ -32,5 +32,9 @@
   "member": {
     "dataSource": "mongoDS",
     "public": true
+  },
+  "user": {
+    "dataSource": "mongoDS",
+    "public": true
   }
 }
