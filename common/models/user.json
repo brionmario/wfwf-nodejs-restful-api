@@ -21,6 +21,10 @@
       "type": "number",
       "default": 0
     },
+    "position": {
+      "type": "number",
+      "default": 0
+    },
     "tasks": {
       "type": ["object"],
       "default": [
