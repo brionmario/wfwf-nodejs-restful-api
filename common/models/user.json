@@ -21,6 +21,46 @@
       "type": "number",
       "default": 0
     },
+    "tasks": {
+      "type": ["object"],
+      "default": [
+        {
+          "id": "1",
+          "name": "wfwf_task_1",
+          "completed": false
+        },
+        {
+          "id": "2",
+          "name": "wfwf_task_2",
+          "completed": false
+        },
+        {
+          "id": "3",
+          "name": "wfwf_task_3",
+          "completed": false
+        },
+        {
+          "id": "4",
+          "name": "wfwf_task_4",
+          "completed": false
+        },
+        {
+          "id": "5",
+          "name": "wfwf_task_5",
+          "completed": false
+        },
+        {
+          "id": "6",
+          "name": "wfwf_task_6",
+          "completed": false
+        },
+        {
+          "id": "7",
+          "name": "wfwf_task_7",
+          "completed": false
+        }
+      ]
+    },
     "completedTasks": {
       "type": "number",
       "default": 0
