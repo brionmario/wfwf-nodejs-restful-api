@@ -60,10 +60,6 @@
           "completed": false
         }
       ]
-    },
-    "completedTasks": {
-      "type": "number",
-      "default": 0
     }
   },
   "validations": [],
