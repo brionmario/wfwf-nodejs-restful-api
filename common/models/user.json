@@ -27,36 +27,43 @@
         {
           "id": "1",
           "name": "wfwf_task_1",
+          "description": "Find Levi 501 Original Fit Jeans",
           "completed": false
         },
         {
           "id": "2",
           "name": "wfwf_task_2",
+          "description": "Find Armani J10 Denim Jeans",
           "completed": false
         },
         {
           "id": "3",
           "name": "wfwf_task_3",
+          "description": "Find Victoria Sport Ribbed Dress",
           "completed": false
         },
         {
           "id": "4",
           "name": "wfwf_task_4",
+          "description": "Find Armani Lurex Jacquard Dress",
           "completed": false
         },
         {
           "id": "5",
           "name": "wfwf_task_5",
+          "description": "Find Armani Velvet Playsuit",
           "completed": false
         },
         {
           "id": "6",
           "name": "wfwf_task_6",
+          "description": "Find the Polo Shirt",
           "completed": false
         },
         {
           "id": "7",
           "name": "wfwf_task_7",
+          "description": "Find the Superdry Jacket",
           "completed": false
         }
       ]
